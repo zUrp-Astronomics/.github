@@ -14,8 +14,8 @@ Soon ©️
 ## Work in Progress (⚠ NOT YET VALIDATED ⚠)
 
 #### Mounts
-- **[Kaiju](https://github.com/zUrp-Astronomics/)** Fully integrated harmonic alt-az mount for DSLR, like a SeeStar on steroids
-- **[Berserker](https://github.com/zUrp-Astronomics/ZM-1)** State-of-the-art harmonic equatorial mount, 3D printed with CNC machined core
+- **[Kaiju](https://github.com/zUrp-Astronomics/kaiju)** Fully integrated harmonic alt-az mount for DSLR, like a SeeStar on steroids
+- **[Berserker](https://github.com/zUrp-Astronomics/berserker)** State-of-the-art harmonic equatorial mount, 3D printed with CNC machined core
 
 #### Gadgets
 - **[Unicorn Control Station](https://github.com/zUrp-Astronomics/unicorn)** Small but effective controller for astronomical mount, in a Tic-Tac's box size (based on TeenAstro project)
