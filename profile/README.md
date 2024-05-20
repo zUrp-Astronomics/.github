@@ -5,7 +5,7 @@
 </picture>
 
 # Hi here 👋
-Welcome to DIY hell
+Welcome to DIY hell, powered by ![GPL 3.0 License](https://img.shields.io/badge/GitHub-GPL--3.0-informational)
 
 ## Released ✅
 
