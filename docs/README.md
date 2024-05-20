@@ -1,6 +1,6 @@
 <picture>
     <img
-        alt="A pixel art of a Dophin with text: Flipper Devices"
+        alt="A pixel art of a Nyan Cat"
         src="/profile/Low_tech_DIY.png">
 </picture>
 
