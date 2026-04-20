@@ -10,6 +10,8 @@
 ![license](https://img.shields.io/badge/license-GPL--3.0-blue)
 ![tech](https://img.shields.io/badge/tech-open_hardware-informational)
 
+[**🌐 zurp-astronomics.github.io**](https://zurp-astronomics.github.io)
+
 </div>
 
 ---
