@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="/profile/Low_tech_DIY.png" alt="zUrp Astronomics logo — Nyan Cat, Low-Tech & DIY caption" width="320">
-
-# zUrp Astronomics
+<img src="/profile/logo_zUrp-astronomics.png" alt="zUrp Astronomics — corporate logotype" width="480">
 
 *Low-tech, DIY, amateur astronomy hardware.*
 
