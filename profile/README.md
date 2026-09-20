@@ -32,6 +32,7 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 - **[Unicorn](https://github.com/zUrp-Astronomics/unicorn)** — Small but effective **controller** for astronomical mount, in a Tic-Tac's box size (based on TeenAstro project).
 - **[Kraken](https://github.com/zUrp-Astronomics/kraken)** — Compact but efficient **powerbox**, in a Raspberry Pi case (based on NAFAbox / Astralim projects).
 - **[Maelstrom](https://github.com/zUrp-Astronomics/maelstrom)** — APS-C cooled astronomical **camera**, with Nikon D40 CCD sensor (based on Cam86/Cam87 project).
+- **[Basilisk](https://github.com/zUrp-Astronomics/basilisk)** — Sleek but deadly Sony E adapter for astro cameras, bending glass to your will without leaving the warm room.
 
 ### Future projects
 
