@@ -71,6 +71,7 @@ site déployé.
 | Berserker | [`repos/berserker.md`](repos/berserker.md) | [zUrp-Astronomics/berserker](https://github.com/zUrp-Astronomics/berserker) | https://zurp-astronomics.github.io/brand/social/berserker.jpg |
 | Kaiju | [`repos/kaiju.md`](repos/kaiju.md) | [zUrp-Astronomics/Kaiju](https://github.com/zUrp-Astronomics/Kaiju) | https://zurp-astronomics.github.io/brand/social/kaiju.jpg |
 | Cyclops | [`repos/cyclops.md`](repos/cyclops.md) | *pas encore de dépôt* | https://zurp-astronomics.github.io/brand/social/cyclops.jpg |
+| Maelstrom | [`repos/maelstrom.md`](repos/maelstrom.md) | [zUrp-Astronomics/Maelstrom](https://github.com/zUrp-Astronomics/Maelstrom) | https://zurp-astronomics.github.io/brand/social/maelstrom.jpg |
 | Basilisk | [`repos/basilisk.md`](repos/basilisk.md) | [zUrp-Astronomics/basilisk](https://github.com/zUrp-Astronomics/basilisk) | https://zurp-astronomics.github.io/brand/social/basilisk.jpg |
 | Kraken | [`repos/kraken.md`](repos/kraken.md) | [zUrp-Astronomics/Kraken](https://github.com/zUrp-Astronomics/Kraken) | https://zurp-astronomics.github.io/brand/social/kraken.jpg |
 | Wraith | [`repos/wraith.md`](repos/wraith.md) | *pas encore de dépôt* | https://zurp-astronomics.github.io/brand/social/wraith.jpg |

@@ -44,6 +44,10 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 <td width="112"><a href="https://zurp-astronomics.github.io/cyclops/"><img src="https://zurp-astronomics.github.io/brand/posters/cyclops.webp" alt="Cyclops poster" width="100"></a></td>
 <td><b><a href="https://zurp-astronomics.github.io/cyclops/">Cyclops</a></b> — Autonomous embedded astrometry finder: one eye on the sky, so your visual scope always knows where it points.<br><sub>Based on diofinder</sub></td>
 </tr>
+<tr>
+<td width="112"><a href="https://zurp-astronomics.github.io/maelstrom/"><img src="https://zurp-astronomics.github.io/brand/posters/maelstrom.webp" alt="Maelstrom poster" width="100"></a></td>
+<td><b><a href="https://zurp-astronomics.github.io/maelstrom/">Maelstrom</a></b> — APS-C cooled astronomical camera, with Nikon D40 CCD sensor. <a href="https://github.com/zUrp-Astronomics/Maelstrom"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on Cam86 / Cam87</sub></td>
+</tr>
 </table>
 
 #### Gadgets
