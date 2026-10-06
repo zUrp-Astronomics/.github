@@ -8,11 +8,7 @@
 *Low-tech, DIY, amateur astronomy hardware.*
 
 ![status: work in progress](https://img.shields.io/badge/status-work%20in%20progress-orange)
-[![hardware: OCL v1.1](https://img.shields.io/badge/hardware-OCL%20v1.1-blue)](https://github.com/OpenCommunityLicence/OpenCommunityLicence)
-[![software: GPL-3.0](https://img.shields.io/badge/software-GPL--3.0-blue)](https://www.gnu.org/licenses/gpl-3.0.html)
 ![tech: open hardware](https://img.shields.io/badge/tech-open%20hardware-informational)
-
-<sub>Hardware under OCL v1.1 · software and firmware under GPL-3.0 · a project based on upstream work follows its upstream licence</sub>
 
 [**🌐 zurp-astronomics.github.io**](https://zurp-astronomics.github.io)
 
@@ -37,7 +33,7 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 </tr>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/kaiju/"><img src="https://zurp-astronomics.github.io/brand/posters/kaiju.webp" alt="Kaiju poster" width="100"></a></td>
-<td><b><a href="https://zurp-astronomics.github.io/kaiju/">Kaiju</a></b> — Fully integrated harmonic alt-az mount for DSLR, like a SeeStar on steroids. <a href="https://github.com/zUrp-Astronomics/kaiju"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a></td>
+<td><b><a href="https://zurp-astronomics.github.io/kaiju/">Kaiju</a></b> — Fully integrated harmonic alt-az mount for DSLR, like a SeeStar on steroids. <a href="https://github.com/zUrp-Astronomics/Kaiju"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a></td>
 </tr>
 </table>
 
@@ -47,10 +43,6 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/cyclops/"><img src="https://zurp-astronomics.github.io/brand/posters/cyclops.webp" alt="Cyclops poster" width="100"></a></td>
 <td><b><a href="https://zurp-astronomics.github.io/cyclops/">Cyclops</a></b> — Autonomous embedded astrometry finder: one eye on the sky, so your visual scope always knows where it points.<br><sub>Based on diofinder</sub></td>
-</tr>
-<tr>
-<td width="112"><a href="https://zurp-astronomics.github.io/maelstrom/"><img src="https://zurp-astronomics.github.io/brand/posters/maelstrom.webp" alt="Maelstrom poster" width="100"></a></td>
-<td><b><a href="https://zurp-astronomics.github.io/maelstrom/">Maelstrom</a></b> — APS-C cooled astronomical camera, with Nikon D40 CCD sensor. <a href="https://github.com/zUrp-Astronomics/maelstrom"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on Cam86 / Cam87</sub></td>
 </tr>
 </table>
 
@@ -63,11 +55,7 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 </tr>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/kraken/"><img src="https://zurp-astronomics.github.io/brand/posters/kraken.webp" alt="Kraken poster" width="100"></a></td>
-<td><b><a href="https://zurp-astronomics.github.io/kraken/">Kraken</a></b> — Compact but efficient powerbox, in a Raspberry Pi case. <a href="https://github.com/zUrp-Astronomics/kraken"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on NAFAbox / Astralim</sub></td>
-</tr>
-<tr>
-<td width="112"><a href="https://zurp-astronomics.github.io/unicorn/"><img src="https://zurp-astronomics.github.io/brand/posters/unicorn.webp" alt="Unicorn poster" width="100"></a></td>
-<td><b><a href="https://zurp-astronomics.github.io/unicorn/">Unicorn</a></b> — Small but effective controller for astronomical mount, in a Tic-Tac box size. <a href="https://github.com/zUrp-Astronomics/unicorn"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on TeenAstro</sub></td>
+<td><b><a href="https://zurp-astronomics.github.io/kraken/">Kraken</a></b> — Compact but efficient powerbox, in a Raspberry Pi case. <a href="https://github.com/zUrp-Astronomics/Kraken"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on NAFAbox / Astralim</sub></td>
 </tr>
 </table>
 

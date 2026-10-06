@@ -10,7 +10,7 @@
 Ce dossier (`readme-kit/` du dépôt [zUrp-Astronomics/.github](https://github.com/zUrp-Astronomics/.github)) et le README de
 l'organisation (`profile/README.md`, même dépôt) sont **régénérés à chaque déploiement du site**
 (https://zurp-astronomics.github.io), depuis le catalogue avec lequel le site vient d'être construit : noms, accroches,
-slogans, statuts, sections, ordre, « based on », licences et liens sont ceux du site en ligne.
+slogans, statuts, sections, ordre, « based on » et liens sont ceux du site en ligne.
 N'édite aucun de ces fichiers : ils sont écrasés au déploiement suivant. Pour changer un texte,
 change la fiche du produit (`9_Assets/zurp.yml` de son dépôt) ou, pour un produit pas encore
 migré, `content/products/<slug>/` du site.
@@ -48,15 +48,16 @@ documentation) s'écrit à la main sous le bloc, comme dans tout dépôt.
 - **L'affiche** du produit, servie par le site ; elle mène à sa page sur le site.
 - **Le badge de statut**, dessiné par shields.io depuis `https://zurp-astronomics.github.io/brand/status/<produit>.json`, que le site réécrit à
   chaque build : le statut du produit et, s'il en a une, le tag de sa dernière release.
-- **Le badge de licence** standard de GitHub, pour un produit qui a un dépôt : shields.io lit la
-  licence que GitHub détecte dans le fichier `LICENSE` à la racine du dépôt. La licence d'un projet,
-  c'est son `LICENSE`. Un dépôt sans `LICENSE` affiche « not specified ».
 
 GitHub met en cache les images des README : après un build, un badge peut montrer l'ancienne valeur
 pendant quelques minutes.
 
 Un dépôt qui porte encore un ancien en-tête (nom, slogan, badges de licence, phrase de licence) :
-remplace-le une dernière fois, marqueurs compris, par ce bloc.
+remplace-le une dernière fois, marqueurs compris, par ce bloc. Un dépôt où le bloc précédent est déjà
+collé (affiche, badge de statut et badge de licence) : retire la ligne du badge de licence
+(`![licence](https://img.shields.io/github/license/…)`), ou recolle le bloc, marqueurs compris. La
+licence d'un projet, c'est le fichier `LICENSE` à la racine de son dépôt : GitHub l'affiche dans
+l'encadré « About » du dépôt, et le site sur la page du produit.
 
 ## 3. Carte d'aperçu (Social preview) de chaque dépôt
 
@@ -68,12 +69,10 @@ site déployé.
 | Produit | En-tête à coller | Dépôt GitHub | Carte d'aperçu à téléverser |
 |---|---|---|---|
 | Berserker | [`repos/berserker.md`](repos/berserker.md) | [zUrp-Astronomics/berserker](https://github.com/zUrp-Astronomics/berserker) | https://zurp-astronomics.github.io/brand/social/berserker.jpg |
-| Kaiju | [`repos/kaiju.md`](repos/kaiju.md) | [zUrp-Astronomics/kaiju](https://github.com/zUrp-Astronomics/kaiju) | https://zurp-astronomics.github.io/brand/social/kaiju.jpg |
+| Kaiju | [`repos/kaiju.md`](repos/kaiju.md) | [zUrp-Astronomics/Kaiju](https://github.com/zUrp-Astronomics/Kaiju) | https://zurp-astronomics.github.io/brand/social/kaiju.jpg |
 | Cyclops | [`repos/cyclops.md`](repos/cyclops.md) | *pas encore de dépôt* | https://zurp-astronomics.github.io/brand/social/cyclops.jpg |
-| Maelstrom | [`repos/maelstrom.md`](repos/maelstrom.md) | [zUrp-Astronomics/maelstrom](https://github.com/zUrp-Astronomics/maelstrom) | https://zurp-astronomics.github.io/brand/social/maelstrom.jpg |
 | Basilisk | [`repos/basilisk.md`](repos/basilisk.md) | [zUrp-Astronomics/basilisk](https://github.com/zUrp-Astronomics/basilisk) | https://zurp-astronomics.github.io/brand/social/basilisk.jpg |
-| Kraken | [`repos/kraken.md`](repos/kraken.md) | [zUrp-Astronomics/kraken](https://github.com/zUrp-Astronomics/kraken) | https://zurp-astronomics.github.io/brand/social/kraken.jpg |
-| Unicorn | [`repos/unicorn.md`](repos/unicorn.md) | [zUrp-Astronomics/unicorn](https://github.com/zUrp-Astronomics/unicorn) | https://zurp-astronomics.github.io/brand/social/unicorn.jpg |
+| Kraken | [`repos/kraken.md`](repos/kraken.md) | [zUrp-Astronomics/Kraken](https://github.com/zUrp-Astronomics/Kraken) | https://zurp-astronomics.github.io/brand/social/kraken.jpg |
 | Wraith | [`repos/wraith.md`](repos/wraith.md) | *pas encore de dépôt* | https://zurp-astronomics.github.io/brand/social/wraith.jpg |
 
 Cyclops, Wraith n'ont pas encore de dépôt : leurs en-têtes et leurs cartes sont prêts pour le jour où ils seront créés.

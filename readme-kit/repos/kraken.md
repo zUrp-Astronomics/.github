@@ -4,7 +4,6 @@
 <a href="https://zurp-astronomics.github.io/kraken/"><img src="https://zurp-astronomics.github.io/brand/posters/kraken.webp" alt="zUrp Astronomics product poster" width="420"></a>
 
 ![status](https://img.shields.io/endpoint?url=https%3A%2F%2Fzurp-astronomics.github.io%2Fbrand%2Fstatus%2Fkraken.json)
-![licence](https://img.shields.io/github/license/zUrp-Astronomics/kraken)
 
 </div>
 
