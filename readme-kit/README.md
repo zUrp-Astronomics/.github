@@ -74,6 +74,7 @@ site déployé.
 | Maelstrom | [`repos/maelstrom.md`](repos/maelstrom.md) | [zUrp-Astronomics/Maelstrom](https://github.com/zUrp-Astronomics/Maelstrom) | https://zurp-astronomics.github.io/brand/social/maelstrom.jpg |
 | Basilisk | [`repos/basilisk.md`](repos/basilisk.md) | [zUrp-Astronomics/basilisk](https://github.com/zUrp-Astronomics/basilisk) | https://zurp-astronomics.github.io/brand/social/basilisk.jpg |
 | Kraken | [`repos/kraken.md`](repos/kraken.md) | [zUrp-Astronomics/Kraken](https://github.com/zUrp-Astronomics/Kraken) | https://zurp-astronomics.github.io/brand/social/kraken.jpg |
+| Unicorn | [`repos/unicorn.md`](repos/unicorn.md) | [zUrp-Astronomics/Unicorn](https://github.com/zUrp-Astronomics/Unicorn) | https://zurp-astronomics.github.io/brand/social/unicorn.jpg |
 | Wraith | [`repos/wraith.md`](repos/wraith.md) | *pas encore de dépôt* | https://zurp-astronomics.github.io/brand/social/wraith.jpg |
 
 Cyclops, Wraith n'ont pas encore de dépôt : leurs en-têtes et leurs cartes sont prêts pour le jour où ils seront créés.

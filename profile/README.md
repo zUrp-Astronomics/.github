@@ -61,6 +61,10 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 <td width="112"><a href="https://zurp-astronomics.github.io/kraken/"><img src="https://zurp-astronomics.github.io/brand/posters/kraken.webp" alt="Kraken poster" width="100"></a></td>
 <td><b><a href="https://zurp-astronomics.github.io/kraken/">Kraken</a></b> — Compact but efficient powerbox, in a Raspberry Pi case. <a href="https://github.com/zUrp-Astronomics/Kraken"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on NAFAbox / Astralim</sub></td>
 </tr>
+<tr>
+<td width="112"><a href="https://zurp-astronomics.github.io/unicorn/"><img src="https://zurp-astronomics.github.io/brand/posters/unicorn.webp" alt="Unicorn poster" width="100"></a></td>
+<td><b><a href="https://zurp-astronomics.github.io/unicorn/">Unicorn</a></b> — Small but effective controller for astronomical mount, in a Tic-Tac box size. <a href="https://github.com/zUrp-Astronomics/Unicorn"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on TeenAstro</sub></td>
+</tr>
 </table>
 
 ### Future projects
