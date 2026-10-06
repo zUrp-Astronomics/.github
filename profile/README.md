@@ -33,7 +33,7 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 </tr>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/kaiju/"><img src="https://zurp-astronomics.github.io/brand/posters/kaiju.webp" alt="Kaiju poster" width="100"></a></td>
-<td><b><a href="https://zurp-astronomics.github.io/kaiju/">Kaiju</a></b> — Fully integrated harmonic alt-az mount for DSLR, like a SeeStar on steroids. <a href="https://github.com/zUrp-Astronomics/Kaiju"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a></td>
+<td><b><a href="https://zurp-astronomics.github.io/kaiju/">Kaiju</a></b> — The final boss of DIY astro: a free, open-source SeeStar on steroids. <a href="https://github.com/zUrp-Astronomics/Kaiju"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a></td>
 </tr>
 </table>
 
