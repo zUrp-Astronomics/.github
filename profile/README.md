@@ -59,7 +59,7 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 </tr>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/kraken/"><img src="https://zurp-astronomics.github.io/brand/posters/kraken.webp" alt="Kraken poster" width="100"></a></td>
-<td><b><a href="https://zurp-astronomics.github.io/kraken/">Kraken</a></b> — Compact but efficient powerbox, in a Raspberry Pi case. <a href="https://github.com/zUrp-Astronomics/Kraken"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on NAFAbox / Astralim</sub></td>
+<td><b><a href="https://zurp-astronomics.github.io/kraken/">Kraken</a></b> — Small but efficient powerbox for astronomy setups, the size of a Raspberry Pi. <a href="https://github.com/zUrp-Astronomics/Kraken"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a></td>
 </tr>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/unicorn/"><img src="https://zurp-astronomics.github.io/brand/posters/unicorn.webp" alt="Unicorn poster" width="100"></a></td>
