@@ -29,7 +29,7 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 <table>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/berserker/"><img src="https://zurp-astronomics.github.io/brand/posters/berserker.webp" alt="Berserker poster" width="100"></a></td>
-<td><b><a href="https://zurp-astronomics.github.io/berserker/">Berserker</a></b> — State-of-the-art harmonic equatorial mount, 3D printed with CNC machined core. <a href="https://github.com/zUrp-Astronomics/berserker"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a></td>
+<td><b><a href="https://zurp-astronomics.github.io/berserker/">Berserker</a></b> — State-of-the-art harmonic equatorial mount, 3D printed with CNC machined core. <a href="https://github.com/zUrp-Astronomics/Berserker"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a></td>
 </tr>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/kaiju/"><img src="https://zurp-astronomics.github.io/brand/posters/kaiju.webp" alt="Kaiju poster" width="100"></a></td>
@@ -42,7 +42,7 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 <table>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/cyclops/"><img src="https://zurp-astronomics.github.io/brand/posters/cyclops.webp" alt="Cyclops poster" width="100"></a></td>
-<td><b><a href="https://zurp-astronomics.github.io/cyclops/">Cyclops</a></b> — Autonomous embedded astrometry finder: one eye on the sky, so your visual scope always knows where it points.<br><sub>Based on diofinder</sub></td>
+<td><b><a href="https://zurp-astronomics.github.io/cyclops/">Cyclops</a></b> — Autonomous embedded astrometry finder: one eye on the sky, so your visual scope always knows where it points. <a href="https://github.com/zUrp-Astronomics/Cyclops"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on diofinder</sub></td>
 </tr>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/maelstrom/"><img src="https://zurp-astronomics.github.io/brand/posters/maelstrom.webp" alt="Maelstrom poster" width="100"></a></td>
@@ -55,7 +55,7 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 <table>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/basilisk/"><img src="https://zurp-astronomics.github.io/brand/posters/basilisk.webp" alt="Basilisk poster" width="100"></a></td>
-<td><b><a href="https://zurp-astronomics.github.io/basilisk/">Basilisk</a></b> — Sleek but deadly Sony E adapter for astro cameras, bending glass to your will without leaving the warm room. <a href="https://github.com/zUrp-Astronomics/basilisk"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on Pinefeat</sub></td>
+<td><b><a href="https://zurp-astronomics.github.io/basilisk/">Basilisk</a></b> — Sleek but deadly Sony E adapter for astro cameras, bending glass to your will without leaving the warm room. <a href="https://github.com/zUrp-Astronomics/Basilisk"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on Pinefeat</sub></td>
 </tr>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/kraken/"><img src="https://zurp-astronomics.github.io/brand/posters/kraken.webp" alt="Kraken poster" width="100"></a></td>

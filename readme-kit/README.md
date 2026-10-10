@@ -33,7 +33,7 @@ site, lui, est déjà déployé à ce moment-là.
 
 **Où mènent les liens.** Dans la liste des projets, la miniature et le nom mènent tous deux à la page
 du produit sur le site (`https://zurp-astronomics.github.io/<produit>/`). Le petit badge **GitHub** placé après l'accroche, et
-lui seul, mène au dépôt du produit. Un produit sans dépôt dédié (Cyclops, Wraith) n'a pas de badge. Dans une section, le produit dont la release
+lui seul, mène au dépôt du produit. Un produit sans dépôt dédié (Wraith) n'a pas de badge. Dans une section, le produit dont la release
 est la plus récente vient en tête ; les produits sans release suivent, par ordre alphabétique.
 
 ## 2. En-tête de README de chaque produit
@@ -68,16 +68,16 @@ site déployé.
 
 | Produit | En-tête à coller | Dépôt GitHub | Carte d'aperçu à téléverser |
 |---|---|---|---|
-| Berserker | [`repos/berserker.md`](repos/berserker.md) | [zUrp-Astronomics/berserker](https://github.com/zUrp-Astronomics/berserker) | https://zurp-astronomics.github.io/brand/social/berserker.jpg |
+| Berserker | [`repos/berserker.md`](repos/berserker.md) | [zUrp-Astronomics/Berserker](https://github.com/zUrp-Astronomics/Berserker) | https://zurp-astronomics.github.io/brand/social/berserker.jpg |
 | Kaiju | [`repos/kaiju.md`](repos/kaiju.md) | [zUrp-Astronomics/Kaiju](https://github.com/zUrp-Astronomics/Kaiju) | https://zurp-astronomics.github.io/brand/social/kaiju.jpg |
-| Cyclops | [`repos/cyclops.md`](repos/cyclops.md) | *pas encore de dépôt* | https://zurp-astronomics.github.io/brand/social/cyclops.jpg |
+| Cyclops | [`repos/cyclops.md`](repos/cyclops.md) | [zUrp-Astronomics/Cyclops](https://github.com/zUrp-Astronomics/Cyclops) | https://zurp-astronomics.github.io/brand/social/cyclops.jpg |
 | Maelstrom | [`repos/maelstrom.md`](repos/maelstrom.md) | [zUrp-Astronomics/Maelstrom](https://github.com/zUrp-Astronomics/Maelstrom) | https://zurp-astronomics.github.io/brand/social/maelstrom.jpg |
-| Basilisk | [`repos/basilisk.md`](repos/basilisk.md) | [zUrp-Astronomics/basilisk](https://github.com/zUrp-Astronomics/basilisk) | https://zurp-astronomics.github.io/brand/social/basilisk.jpg |
+| Basilisk | [`repos/basilisk.md`](repos/basilisk.md) | [zUrp-Astronomics/Basilisk](https://github.com/zUrp-Astronomics/Basilisk) | https://zurp-astronomics.github.io/brand/social/basilisk.jpg |
 | Kraken | [`repos/kraken.md`](repos/kraken.md) | [zUrp-Astronomics/Kraken](https://github.com/zUrp-Astronomics/Kraken) | https://zurp-astronomics.github.io/brand/social/kraken.jpg |
 | Unicorn | [`repos/unicorn.md`](repos/unicorn.md) | [zUrp-Astronomics/Unicorn](https://github.com/zUrp-Astronomics/Unicorn) | https://zurp-astronomics.github.io/brand/social/unicorn.jpg |
 | Wraith | [`repos/wraith.md`](repos/wraith.md) | *pas encore de dépôt* | https://zurp-astronomics.github.io/brand/social/wraith.jpg |
 
-Cyclops, Wraith n'ont pas encore de dépôt : leurs en-têtes et leurs cartes sont prêts pour le jour où ils seront créés.
+Wraith n'a pas encore de dépôt : son en-tête et sa carte sont prêts pour le jour où il sera créé.
 
 ## 4. Avatar de l'organisation
 
