@@ -98,7 +98,6 @@ site déployé.
 | Produit | En-tête à coller | Dépôt GitHub | Carte d'aperçu à téléverser |
 |---|---|---|---|
 | Berserker | [`repos/berserker.md`](repos/berserker.md) | [zUrp-Astronomics/Berserker](https://github.com/zUrp-Astronomics/Berserker) | https://zurp-astronomics.github.io/brand/social/berserker.jpg |
-| Berserker | [`repos/berserker_old.md`](repos/berserker_old.md) | [zUrp-Astronomics/Berserker_old](https://github.com/zUrp-Astronomics/Berserker_old) | https://zurp-astronomics.github.io/brand/social/berserker_old.jpg |
 | Kaiju | [`repos/kaiju.md`](repos/kaiju.md) | [zUrp-Astronomics/Kaiju](https://github.com/zUrp-Astronomics/Kaiju) | https://zurp-astronomics.github.io/brand/social/kaiju.jpg |
 | Cyclops | [`repos/cyclops.md`](repos/cyclops.md) | [zUrp-Astronomics/Cyclops](https://github.com/zUrp-Astronomics/Cyclops) | https://zurp-astronomics.github.io/brand/social/cyclops.jpg |
 | Maelstrom | [`repos/maelstrom.md`](repos/maelstrom.md) | [zUrp-Astronomics/Maelstrom](https://github.com/zUrp-Astronomics/Maelstrom) | https://zurp-astronomics.github.io/brand/social/maelstrom.jpg |

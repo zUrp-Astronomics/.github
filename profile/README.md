@@ -32,10 +32,6 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 <td><b><a href="https://zurp-astronomics.github.io/berserker/">Berserker</a></b> — A harmonic equatorial mount in the ZWO AM3 class, fully 3D printed, at half the weight — built to carry a C5 or a C6. <a href="https://github.com/zUrp-Astronomics/Berserker"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a></td>
 </tr>
 <tr>
-<td width="112"><a href="https://zurp-astronomics.github.io/berserker_old/"><img src="https://zurp-astronomics.github.io/brand/posters/berserker_old.webp" alt="Berserker poster" width="100"></a></td>
-<td><b><a href="https://zurp-astronomics.github.io/berserker_old/">Berserker</a></b> — State-of-the-art harmonic equatorial mount, 3D printed with CNC machined core. <a href="https://github.com/zUrp-Astronomics/Berserker_old"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a></td>
-</tr>
-<tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/kaiju/"><img src="https://zurp-astronomics.github.io/brand/posters/kaiju.webp" alt="Kaiju poster" width="100"></a></td>
 <td><b><a href="https://zurp-astronomics.github.io/kaiju/">Kaiju</a></b> — An all-in-one alt-az smart telescope on an Intel N100 — a free, open-source SeeStar on steroids. <a href="https://github.com/zUrp-Astronomics/Kaiju"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a></td>
 </tr>
