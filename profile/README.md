@@ -37,7 +37,7 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 </tr>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/kaiju/"><img src="https://zurp-astronomics.github.io/brand/posters/kaiju.webp" alt="Kaiju poster" width="100"></a></td>
-<td><b><a href="https://zurp-astronomics.github.io/kaiju/">Kaiju</a></b> — The final boss of DIY astro: a free, open-source SeeStar on steroids. <a href="https://github.com/zUrp-Astronomics/Kaiju"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a></td>
+<td><b><a href="https://zurp-astronomics.github.io/kaiju/">Kaiju</a></b> — An all-in-one alt-az smart telescope on an Intel N100 — a free, open-source SeeStar on steroids. <a href="https://github.com/zUrp-Astronomics/Kaiju"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a></td>
 </tr>
 </table>
 
@@ -46,11 +46,11 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 <table>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/cyclops/"><img src="https://zurp-astronomics.github.io/brand/posters/cyclops.webp" alt="Cyclops poster" width="100"></a></td>
-<td><b><a href="https://zurp-astronomics.github.io/cyclops/">Cyclops</a></b> — Autonomous embedded astrometry finder: one eye on the sky, so your visual scope always knows where it points. <a href="https://github.com/zUrp-Astronomics/Cyclops"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on diofinder</sub></td>
+<td><b><a href="https://zurp-astronomics.github.io/cyclops/">Cyclops</a></b> — An autonomous plate-solving finder: your visual telescope always knows where it points, with no imaging camera and no laptop. <a href="https://github.com/zUrp-Astronomics/Cyclops"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on diofinder</sub></td>
 </tr>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/maelstrom/"><img src="https://zurp-astronomics.github.io/brand/posters/maelstrom.webp" alt="Maelstrom poster" width="100"></a></td>
-<td><b><a href="https://zurp-astronomics.github.io/maelstrom/">Maelstrom</a></b> — APS-C cooled astronomical camera, with Nikon D40 CCD sensor. <a href="https://github.com/zUrp-Astronomics/Maelstrom"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on Cam86 / Cam87</sub></td>
+<td><b><a href="https://zurp-astronomics.github.io/maelstrom/">Maelstrom</a></b> — A cooled APS-C astrocam built around the CCD of a Nikon D40 — for less than the price of a new CMOS camera. <a href="https://github.com/zUrp-Astronomics/Maelstrom"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on Cam86 / Cam87</sub></td>
 </tr>
 </table>
 
@@ -63,11 +63,11 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 </tr>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/kraken/"><img src="https://zurp-astronomics.github.io/brand/posters/kraken.webp" alt="Kraken poster" width="100"></a></td>
-<td><b><a href="https://zurp-astronomics.github.io/kraken/">Kraken</a></b> — Small but efficient powerbox for astronomy setups, the size of a Raspberry Pi. <a href="https://github.com/zUrp-Astronomics/Kraken"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a></td>
+<td><b><a href="https://zurp-astronomics.github.io/kraken/">Kraken</a></b> — A powerbox the size of a Raspberry Pi: 250 W in, six USB ports and six switchable power outputs for the whole imaging rig. <a href="https://github.com/zUrp-Astronomics/Kraken"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a></td>
 </tr>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/unicorn/"><img src="https://zurp-astronomics.github.io/brand/posters/unicorn.webp" alt="Unicorn poster" width="100"></a></td>
-<td><b><a href="https://zurp-astronomics.github.io/unicorn/">Unicorn</a></b> — Small but effective controller for astronomical mount, in a Tic-Tac box size. <a href="https://github.com/zUrp-Astronomics/Unicorn"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on TeenAstro</sub></td>
+<td><b><a href="https://zurp-astronomics.github.io/unicorn/">Unicorn</a></b> — A complete mount controller in a Tic-Tac box: dual-axis steppers, GNSS, encoders and a Wi-Fi hand controller, on TeenAstro. <a href="https://github.com/zUrp-Astronomics/Unicorn"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on TeenAstro</sub></td>
 </tr>
 </table>
 
