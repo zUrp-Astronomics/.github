@@ -59,7 +59,7 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 <table>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/basilisk/"><img src="https://zurp-astronomics.github.io/brand/posters/basilisk.webp" alt="Basilisk poster" width="100"></a></td>
-<td><b><a href="https://zurp-astronomics.github.io/basilisk/">Basilisk</a></b> — Sleek but deadly Sony E adapter for astro cameras, bending glass to your will without leaving the warm room. <a href="https://github.com/zUrp-Astronomics/Basilisk"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on Pinefeat</sub></td>
+<td><b><a href="https://zurp-astronomics.github.io/basilisk/">Basilisk</a></b> — A Sony E adapter for astro cameras: focus and aperture driven from Ekos or ASCOM, over a single USB-C cable. <a href="https://github.com/zUrp-Astronomics/Basilisk"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on Pinefeat</sub></td>
 </tr>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/kraken/"><img src="https://zurp-astronomics.github.io/brand/posters/kraken.webp" alt="Kraken poster" width="100"></a></td>
