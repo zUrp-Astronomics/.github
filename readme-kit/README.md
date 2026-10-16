@@ -279,6 +279,28 @@ est propre au produit (où sont ses pastilles SWD…) va dans son README.
 Une image `.img.xz`, que l'utilisateur écrit sur une carte microSD avec Raspberry Pi Imager
 (« Use custom ») ou Etcher. La page du produit la lie là où GitHub la sert, avec cette notice.
 
+### Banc web : un `_bench.html`
+
+Un produit peut joindre à sa release un **banc web** : une page HTML autonome (sans dépendance ni
+appel réseau) qui pilote la carte par Web Serial et parle le protocole du firmware de **cette**
+release. La page du produit l'ouvre, dans son bloc Install, par-dessus la page (bouton **Bench**) ou
+dans un nouvel onglet.
+
+- **Son nom** : `<produit>_<version>_bench.html`, en minuscules (par exemple
+  `basilisk_1.2.0_bench.html`). Le site le reconnaît au suffixe exact `_bench.html` ; un seul par
+  release : avec deux bancs ou plus, aucun n'est publié.
+- **La même release que le firmware** : le banc est pris dans la release retenue (ci-dessus), et
+  dans aucune autre. Il suit le firmware dont il parle le protocole : une release retenue sans banc
+  n'a pas de banc, le site ne reprend pas celui d'une release plus ancienne.
+- **Un banc seul ne publie rien** : il ne rend pas une release installable, et il n'est publié qu'à
+  côté d'une installation publiée (un ESP valide, un `.hex` ou un `.img.xz`). Une release dont le
+  seul fichier installable est un manifeste invalide ne publie pas non plus son banc ; le rapport du
+  catalogue le dit, à part des manifestes rejetés.
+- **Servi par le site, sur sa propre origine** : le site copie le banc tel quel, octet pour octet, sur
+  GitHub Pages, et la page l'ouvre dans un cadre qui a le droit d'accéder au port série. Web Serial est
+  refusé dans un cadre d'une autre origine, et les fichiers d'une release GitHub sont d'une autre
+  origine : un lien vers la release ne marcherait pas.
+
 ### Firmware de l'amont
 
 Un produit qui tourne sous le firmware d'un projet amont (Unicorn, sous le firmware TeenAstro) **ne
