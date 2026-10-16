@@ -1,7 +1,7 @@
 # Kit README — mode d'emploi
 
 **Date** : 2026-10-03
-**Dernière révision** : 2026-10-10
+**Dernière révision** : 2026-10-12
 **Statut** : généré par `scripts/readme-kit.mjs` (dépôt du site) à chaque déploiement — ne pas éditer à la main
 **Référencé par** : `.github/workflows/deploy.yml` du site (job « README de l'org »), `readme-kit/README.md` du site
 
@@ -179,3 +179,128 @@ ASSEMBLAGE
 POINTS D'ATTENTION
   - <à remplir>
 ```
+
+## 6. Publier un logiciel
+
+Un produit publie le logiciel de sa carte dans une release GitHub, construite par GitHub Actions. Le
+site la lit et, sur la page du produit, dans son bloc **Install** (ancre `#install`), propose de
+l'installer. Une seule façon de faire pour tous les produits, avec l'outil habituel de chaque
+famille : ESP Web Tools pour un ESP, un `.hex` pour un STM32, une image `.img.xz` pour un Raspberry
+Pi. Ce qui suit est le contrat entre le site et les produits ; le site le vérifie à chaque build.
+
+### Commun à toutes les familles
+
+1. **Un tag semver** (`v1.2.0`), poussé sur le dépôt, lance le workflow de release.
+2. **GitHub Actions construit** les fichiers, **crée la release** et les y attache, avec
+   `softprops/action-gh-release`.
+3. **Les fichiers sont nommés** `<produit>_<version>_<cible>.<ext>`, en minuscules : `<produit>` est
+   le slug (le nom du dépôt en minuscules), `<version>` le tag sans le `v`, `<cible>` la puce ou la
+   carte. Par exemple : `basilisk_1.2.0_esp32s3.bin`, `maelstrom_1.2.0_stm32f411.hex`,
+   `cyclops_1.2.0_rpi4.img.xz`. **Seule exception : le manifeste ESP**, reconnu par son nom exact
+   `manifest.json`.
+4. **Le workflow envoie ensuite le signal `zurp-catalog`** au site, avec `ZURP_SITE_DISPATCH`, le
+   secret de l'org qu'utilisent déjà les signaux de `zurp-site.yml`. Tant que ce signal n'est pas
+   parti, la release n'apparaît pas : le build que lance la publication de la release peut partir
+   avant que les fichiers soient attachés.
+
+```yaml
+on:
+  push:
+    tags: ['v*.*.*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # … construire les fichiers de la release dans out/ …
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: out/*
+      - name: Signal the site (zurp-catalog)
+        env:
+          GH_TOKEN: ${{ secrets.ZURP_SITE_DISPATCH }}
+        run: gh api repos/zUrp-Astronomics/zurp-astronomics.github.io/dispatches -f event_type=zurp-catalog
+```
+
+**La release retenue.** La plus récente release publiée (brouillons exclus, prereleases comprises)
+**qui porte au moins un fichier installable** : `manifest.json`, un `*.hex` ou un `*.img.xz`. Une
+release plus récente sans fichier installable laisse publiée la précédente : c'est le cas normal
+pendant qu'une release se construit. La version installée est le tag de cette release ; elle peut
+être plus ancienne que la version affichée du produit.
+
+### ESP : ESP Web Tools
+
+Une **image fusionnée par puce** (`esptool.py merge_bin`, écrite à l'offset 0) et un
+**`manifest.json`** au format d'[ESP Web Tools](https://github.com/esphome/esp-web-tools). Le
+bouton de la page détecte la puce branchée et choisit son build : un seul manifeste couvre toutes
+les puces du produit.
+
+```json
+{
+  "name": "Basilisk",
+  "version": "1.2.0",
+  "new_install_prompt_erase": true,
+  "builds": [
+    { "chipFamily": "ESP32-S3", "parts": [ { "path": "basilisk_1.2.0_esp32s3.bin", "offset": 0 } ] },
+    { "chipFamily": "ESP32-C3", "parts": [ { "path": "basilisk_1.2.0_esp32c3.bin", "offset": 0 } ] }
+  ]
+}
+```
+
+- `name` et `version` : des textes non vides (la version : le tag sans le `v`).
+- `builds` : au moins un. `chipFamily` est une famille que reconnaît ESP Web Tools
+  10.4.0, la version que charge le site : `ESP32`, `ESP32-C2`, `ESP32-C3`, `ESP32-C5`, `ESP32-C6`, `ESP32-C61`, `ESP32-H2`, `ESP32-P4`, `ESP32-S2`, `ESP32-S3`, `ESP8266`.
+- `serialType`, facultatif : `cdc` (USB natif de la puce) ou `uart` (pont USB-série). Deux builds
+  d'une même puce peuvent ne différer que par lui ; le couple (`chipFamily`, `serialType`)
+  n'apparaît qu'une fois.
+- Chaque part : `path`, le nom d'un fichier attaché à la **même** release (sans `/`, jamais une URL),
+  et `offset`, un entier (`0` pour une image fusionnée).
+- Les autres champs d'ESP Web Tools (`new_install_prompt_erase`, `funding_url`…) passent tels quels.
+
+Le site copie le manifeste tel quel, avec les fichiers qu'il nomme, sur GitHub Pages : ESP Web Tools
+les télécharge depuis le navigateur. Un manifeste invalide, ou un fichier qu'il nomme que la release
+ne porte pas : **l'ESP n'est pas publié**, et le site ne revient pas à une release plus ancienne. La
+page du produit reste en ligne ; le rapport du catalogue (résumé du job `build` du déploiement du
+site, onglet **Actions**) dit pourquoi, champ par champ. Corrige la release, puis renvoie le signal.
+
+### STM32 : un `.hex`
+
+Un `.hex`, qui porte son adresse de chargement. La page du produit le lie là où GitHub le sert, avec
+une notice courte : un ST-Link en SWD, STM32CubeProgrammer, ouvrir le `.hex`, **Download**. Ce qui
+est propre au produit (où sont ses pastilles SWD…) va dans son README.
+
+### Raspberry Pi : un `.img.xz`
+
+Une image `.img.xz`, que l'utilisateur écrit sur une carte microSD avec Raspberry Pi Imager
+(« Use custom ») ou Etcher. La page du produit la lie là où GitHub la sert, avec cette notice.
+
+### Firmware de l'amont
+
+Un produit qui tourne sous le firmware d'un projet amont (Unicorn, sous le firmware TeenAstro) **ne
+publie rien** : le site n'a rien à faire, et sa page n'a pas de bloc Install.
+
+### La phrase du README du produit
+
+Mot pour mot, dans le texte du README (jamais dans le bloc d'en-tête du § 2, collé dans tous les
+produits), `<slug>` remplacé par le slug du produit :
+
+- ESP :
+
+  ```markdown
+  Install it from your browser on the [product page](https://zurp-astronomics.github.io/<slug>/) (Firefox, Chrome or Edge).
+  ```
+
+- STM32 et Raspberry Pi :
+
+  ```markdown
+  Install it from your browser on the [product page](https://zurp-astronomics.github.io/<slug>/).
+  ```
+
+Le signal à la main, avec `gh` connecté sous un compte qui peut écrire dans le dépôt du site :
+`gh api repos/zUrp-Astronomics/zurp-astronomics.github.io/dispatches -f event_type=zurp-catalog` — ou, dans l'onglet **Actions**
+du site, « Deploy to GitHub Pages » → **Run workflow**.
