@@ -35,7 +35,7 @@ du produit sur le site (`https://zurp-astronomics.github.io/<produit>/`). Le pet
 lui seul, mène au dépôt du produit. Dans une section, le produit dont la release
 est la plus récente vient en tête ; les produits sans release suivent, par ordre alphabétique.
 
-## 2. En-tête de README de chaque produit
+## 2. En-tête et pied de page de README de chaque produit
 
 Pour chaque produit, copie le bloc de `repos/<produit>.md` (ce dossier) **en tête** du `README.md`
 de son dépôt, **une seule fois**. Le bloc va du commentaire `<!-- zurp-readme-header:begin … -->` au commentaire
@@ -70,16 +70,125 @@ fois**, marqueurs compris, pour recevoir les deux badges de licence. Un dépôt 
 ancien en-tête (nom, slogan, badges de licence, phrase de licence) : remplace-le de même, une
 dernière fois, par ce bloc.
 
-**La norme du README produit** (décision de l'humain, 2026-10-10). En anglais. Dans l'ordre : le
-bloc d'en-tête ; le nom en titre centré, le slogan dessous, une barre de liens (site, documentation
-si `7_Docs/` existe, releases, organisation) ; la bannière de statut (`wip` : « Work in progress — do
-not build yet » ; `future` : « Design phase ») ; `## Why <Nom>?`, le paragraphe qui promet de
-ridiculiser l'équivalent du commerce, bâti uniquement sur des faits du dépôt ; `## At a glance`, les
-caractéristiques ; puis, quand le dépôt a de quoi les remplir, `## Hardware`, `## Software`,
-`## Build`, `## Documentation`, `## Status & roadmap`, `## Credits` ; enfin `## Repository layout`,
-`## License` et la signature. Toute image est un chemin relatif vers `9_Assets/`, en WebP à la taille
-d'affichage ; l'original reste là où il est produit. Le détail technique vit dans `7_Docs/`, au
-projet. L'org rédige le README et `9_Assets/` ; le projet tient tout le reste.
+**Le pied de page**, le même pour tous les produits. Copie le bloc de `footer.md` (ce dossier :
+[`zUrp-Astronomics/.github` → `readme-kit/footer.md`](https://github.com/zUrp-Astronomics/.github/blob/main/readme-kit/footer.md))
+**à la fin** du `README.md` de chaque dépôt, après les deux parties de langue, **une seule fois**. Le
+bloc va du commentaire `<!-- zurp-readme-footer:begin … -->` au commentaire `<!-- zurp-readme-footer:end -->`, tous
+deux inclus. Il **remplace la signature écrite à la main** : un README n'a pas d'autre signature.
+Comme l'en-tête, il ne contient que des adresses, et il **se met à jour seul** : ne le recolle pas,
+ne le modifie pas. Dans l'ordre :
+
+- **La plaque émaillée** zUrp Astronomics, https://zurp-astronomics.github.io/brand/zurp-plate.webp, la photo de l'en-tête du site. Elle mène
+  au site.
+- **La signature**, https://zurp-astronomics.github.io/brand/signature.png, une image que le site dessine à chaque build depuis ses
+  textes (`content/site.yml` du dépôt du site : `signature` et `header.subtitle`) : changer la
+  signature, c'est changer ce fichier, et tous les README suivent au build suivant (après le cache de
+  GitHub, quelques minutes). Elle se lit sur le fond clair comme sur le fond sombre de GitHub.
+- **Les liens** vers le site et vers l'organisation GitHub, en texte.
+
+**Un README qui porte encore une signature écrite à la main** (`<p align="center"><sub><a
+href="https://zurp-astronomics.github.io/">zUrp Astronomics</a> — a subsidiary of zUrp Industries. …</sub></p>`, ou toute
+autre) : remplace-la par ce bloc, une dernière fois.
+
+**La norme du README produit** (décisions de l'humain, 2026-10-10 et 2026-10-20). Elle vaut pour
+tous les produits. Le README de [Basilisk](https://github.com/zUrp-Astronomics/Basilisk) est le premier à la suivre : il
+sert de modèle, la norme reste générique.
+
+**Qui écrit quoi.** Le **projet écrit le fond** de son README, dans les deux langues, et de
+`9_Assets/` : sa fiche, son manuel (§ 7), ses images. **L'architecte du site tient la forme** :
+cette norme, les blocs communs, et une relecture de forme avant la première publication du README et
+avant chaque release. Le projet lui envoie ses fichiers ; l'architecte du site renvoie des
+corrections de forme, jamais une réécriture du fond. En cas de désaccord, l'humain tranche. Le bloc
+d'en-tête et le bloc de pied de page ne sont ni écrits ni modifiés par le projet (ci-dessus).
+
+**Deux langues : le français, puis l'anglais.** Les deux parties portent les mêmes sections, dans le
+même ordre. De haut en bas :
+
+1. **La tête commune**, une seule fois : le bloc d'en-tête ; le nom en titre centré, le slogan
+   dessous ; une barre de liens (site, documentation si `7_Docs/` existe, releases, organisation) ;
+   la bannière de statut quand il y en a une (`wip` : « Work in progress — do not build yet » ;
+   `future` : « Design phase »).
+2. **La ligne de langue**, sous la tête : elle mène à la partie anglaise par une ancre.
+3. **La partie française**, de `## Pourquoi <Nom> ?` à `## Licence`.
+4. **La partie anglaise**, de `## Why <Nom>?` à `## License`. Elle commence par ce titre, et c'est
+   son ancre que vise la ligne de langue.
+5. **Le bloc de pied de page**, une seule fois, qui ferme le fichier : il porte la signature (ci-dessus),
+   à la place de toute signature écrite à la main.
+
+Le squelette, sur l'exemple de Basilisk (`…` : ce que le projet écrit) :
+
+```markdown
+<!-- zurp-readme-header:begin … -->
+… le bloc d'en-tête de repos/<produit>.md, collé une fois …
+<!-- zurp-readme-header:end -->
+
+<h1 align="center">Basilisk</h1>
+
+<p align="center"><strong><em>Bend the glass to your will</em></strong></p>
+
+<p align="center">… la barre de liens …</p>
+
+<p align="center"><strong>Français</strong> · <a href="#why-basilisk"><strong>English below</strong></a></p>
+
+---
+
+## Pourquoi Basilisk ?
+…
+## Licence
+…
+
+---
+
+## Why Basilisk?
+…
+## License
+…
+
+---
+
+<!-- zurp-readme-footer:begin … -->
+… le bloc de pied de page de footer.md, collé une fois …
+<!-- zurp-readme-footer:end -->
+```
+
+**L'ancre de la ligne de langue** est celle que GitHub donne au titre `## Why <Nom>?` : le texte du
+titre en minuscules, chaque espace remplacé par `-`, la ponctuation retirée (`?`, `.`, `&`… ; les
+`-` et `_` restent). `## Why Basilisk?` donne `#why-basilisk` ; un nom en deux mots, `## Why Iron
+Maiden?`, donne `#why-iron-maiden`.
+
+**Les sections**, dans chaque langue, dans cet ordre :
+
+| partie anglaise | partie française |
+|---|---|
+| `## Why <Nom>?` | `## Pourquoi <Nom> ?` |
+| `## At a glance` | `## En bref` |
+| `## Hardware` | `## Matériel` |
+| `## Assembly` | `## Assemblage` |
+| `## Software` | `## Logiciel` |
+| `## Build` | `## Fabrication` |
+| `## Documentation` | `## La documentation` |
+| `## Status & roadmap` | `## État et feuille de route` |
+| `## Credits` | `## Remerciements` |
+| `## Repository layout` | `## Contenu du dépôt` |
+| `## License` | `## Licence` |
+
+`Why <Nom>?` est le paragraphe qui promet de ridiculiser l'équivalent du commerce, bâti uniquement sur
+des faits du dépôt ; `At a glance`, les caractéristiques. **La liste n'est pas fermée** : un projet
+ajoute la section dont il a besoin, à sa place (Basilisk a une section `Flash`, entre `Software` et
+`Build`). **Une section n'existe que si le dépôt a de quoi la remplir** : un produit qui n'a rien à
+assembler n'a pas de section Assembly.
+
+**Assembly** résume l'assemblage : les pièces, les grandes étapes. Elle vient après Hardware et
+renvoie au détail : l'information brute reste dans les dossiers du dépôt (`1_Board/`, `2_Hardware/`,
+`3_3D-Models/`), le pas-à-pas complet dans l'onglet Assembly du manuel de la page produit (§ 7).
+
+**Le ton**, que relit l'architecte du site : une seule voix, « we » / « nous », comme le manifeste du
+site ; aucun texte qui vieillit (date relative, « cette semaine », numéro de version écrit dans la
+prose) — un état plutôt qu'une date. `Why <Nom>?` reste bâti uniquement sur des faits du dépôt.
+
+**Les images et la documentation.** Toute image est un chemin relatif vers `9_Assets/`, en WebP à la
+taille d'affichage ; l'original reste là où il est produit. Le détail technique vit dans `7_Docs/`,
+au projet.
 
 **Les deux fichiers de licence.** `LICENSE` porte la licence **logicielle** (MIT, GPL…) : c'est
 celle que GitHub reconnaît et affiche dans l'encadré « About » du dépôt. `LICENSE-HARDWARE` porte la
