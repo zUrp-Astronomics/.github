@@ -1,7 +1,7 @@
 # Kit README — mode d'emploi
 
 **Date** : 2026-10-03
-**Dernière révision** : 2026-10-20
+**Dernière révision** : 2026-10-21
 **Statut** : généré par `scripts/readme-kit.mjs` (dépôt du site) à chaque déploiement — ne pas éditer à la main
 **Référencé par** : `.github/workflows/deploy.yml` du site (job « README de l'org »), `readme-kit/README.md` du site
 
@@ -446,7 +446,9 @@ cette norme est signalé au build, jamais corrigé en silence.
 
 ### Les fichiers
 
-Quatre onglets, dans cet ordre, chacun un fichier facultatif de `9_Assets/manual/`, au nom fixe :
+Les onglets forment un **vocabulaire commun**, tenu par l'agence (l'architecte du site) et le même
+pour tous les produits. Le voici, dans l'ordre de la page ; chaque onglet est un fichier facultatif
+de `9_Assets/manual/`, au nom fixe :
 
 | onglet | fichier | ce qu'il porte |
 |---|---|---|
@@ -455,8 +457,11 @@ Quatre onglets, dans cet ordre, chacun un fichier facultatif de `9_Assets/manual
 | Setup | `setup.en.md` | la configuration ; le bloc Install du site y est ajouté |
 | Usage | `usage.en.md` | l'utilisation |
 
-- **Aucun autre nom n'est lu** : le site demande ces fichiers par leur nom, il ne liste pas le
-  dossier. `Overview.md`, `setup.md` ou `notes.en.md` ne sont jamais publiés.
+- **Aucun autre nom n'est publié.** Un fichier `.md` de `9_Assets/manual/` dont le nom n'est pas
+  `<onglet>.<langue>.md`, avec un onglet de ce vocabulaire et une langue parmi `en`, `fr`
+  (`api.en.md`, `Overview.md`, `setup.md`, `notes.en.md`…), n'est pas publié, et il est **signalé
+  au build** (voir plus bas). Les images du manuel, et ce qui est rangé dans un sous-dossier, ne
+  sont pas concernés.
 - **Les titres des onglets sont ceux du site**, pas ceux du projet : le fichier n'en porte pas.
 - **Un onglet sans fichier n'apparaît pas.** Un produit sans aucun fichier de manuel garde sa page
   sans onglets : la présentation de sa fiche (`description` de `zurp.yml`), puis son bloc Install.
@@ -496,8 +501,19 @@ téléchargements, banc) est dans l'onglet **Setup**, après le texte du projet,
 Un produit qui a un manuel et quelque chose à installer a un onglet Setup même sans `setup.*.md` :
 il ne porte alors que le bloc Install. L'ancre `#install` de la page ouvre l'onglet Setup.
 
-Chaque onglet a son ancre, stable : `https://zurp-astronomics.github.io/<slug>/#overview`, `#assembly`, `#setup`,
-`#usage`. Sans ancre, la page s'ouvre sur son premier onglet.
+Chaque onglet a son ancre, stable, son nom de fichier sans la langue : `https://zurp-astronomics.github.io/<slug>/#overview`, `https://zurp-astronomics.github.io/<slug>/#assembly`, `https://zurp-astronomics.github.io/<slug>/#setup`, `https://zurp-astronomics.github.io/<slug>/#usage`.
+Sans ancre, la page s'ouvre sur son premier onglet.
+
+### Demander un onglet
+
+Un manuel qui a besoin d'un onglet absent du vocabulaire ne l'invente pas : son projet le demande
+à l'architecte du site, en disant ce que l'onglet porterait. L'architecte l'ajoute au vocabulaire
+s'il n'existe pas déjà sous un autre nom, et s'il peut servir à d'autres produits que celui qui le
+demande. L'onglet sert alors à tous les produits, avec le même titre sur toutes les pages : le
+projet écrit son fichier, et le site le publie au build suivant.
+
+Tant que l'onglet n'existe pas, son fichier est signalé au build et n'est pas publié : le reste
+du manuel l'est.
 
 ### Ce que le site signale
 
@@ -505,6 +521,8 @@ Le rapport du catalogue (résumé du job `build` du déploiement du site, onglet
 produit, quels onglets ont été publiés et dans quelle langue, puis chaque problème de manuel, en
 nommant le dépôt et le fichier :
 
+- un fichier hors vocabulaire : un `.md` de `9_Assets/manual/` dont le nom n'est pas celui d'un
+  onglet (voir « Demander un onglet ») ;
 - une image écartée : absente, hors de `9_Assets/`, d'un autre format ou illisible ;
 - un titre de niveau 1 (`# …`) ;
 - un fichier illisible (pas du texte UTF-8).
