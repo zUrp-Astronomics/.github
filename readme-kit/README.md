@@ -452,10 +452,10 @@ de `9_Assets/manual/`, au nom fixe :
 
 | onglet | fichier | ce qu'il porte |
 |---|---|---|
-| Overview | `overview.en.md` | la vitrine du produit : ce qu'il est, ce qu'il fait |
-| Assembly | `assembly.en.md` | l'assemblage : souder, imprimer, monter |
-| Setup | `setup.en.md` | la configuration ; le bloc Install du site y est ajouté |
-| Usage | `usage.en.md` | l'utilisation |
+| La bête | `overview.en.md` | la vitrine du produit : ce qu'il est, ce qu'il fait |
+| Assemblage | `assembly.en.md` | l'assemblage : souder, imprimer, monter |
+| Installation | `setup.en.md` | la configuration ; le bloc Install du site y est ajouté |
+| Utilisation | `usage.en.md` | l'utilisation |
 
 - **Aucun autre nom n'est publié.** Un fichier `.md` de `9_Assets/manual/` dont le nom n'est pas
   `<onglet>.<langue>.md`, avec un onglet de ce vocabulaire et une langue parmi `en`, `fr`

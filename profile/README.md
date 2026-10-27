@@ -5,7 +5,7 @@
 
 # zUrp Astronomics
 
-*Low-tech, DIY, amateur astronomy hardware.*
+*Matériel astro sorti de l'atelier.*
 
 ![status: work in progress](https://img.shields.io/badge/status-work%20in%20progress-orange)
 ![tech: open hardware](https://img.shields.io/badge/tech-open%20hardware-informational)
@@ -18,13 +18,13 @@
 
 ## 👋 Hi here
 
-Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, and stubbornness. Open hardware by default, over-engineered by principle.
+Welcome to DIY hell. L'astro est une pute. Des secondes d'arc, les doigts gelés, du matériel au prix de la contrebande. On fabrique le nôtre. Le haut de gamme peut commencer à transpirer.
 
 ## 🚀 Projects
 
 ### Work in Progress ⚠ NOT YET VALIDATED ⚠
 
-#### Mounts
+#### Montures
 
 <table>
 <tr>
@@ -37,7 +37,7 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 </tr>
 </table>
 
-#### Cameras
+#### Caméras
 
 <table>
 <tr>
@@ -50,7 +50,7 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 </tr>
 </table>
 
-#### Gadgets
+#### Accessoires
 
 <table>
 <tr>
@@ -63,7 +63,7 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 </tr>
 </table>
 
-### Future projects
+### À venir projects
 
 <table>
 <tr>
@@ -74,7 +74,7 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 
 ### Released ✅
 
-#### Gadgets
+#### Accessoires
 
 <table>
 <tr>
@@ -87,6 +87,6 @@ Welcome to DIY hell. We build astronomy gear with harmonic drives, 3D printers, 
 
 <div align="center">
 
-*zUrp Astronomics — a subsidiary of zUrp Industries.*
+*zUrp Astronomics — une filiale de zUrp Industries.*
 
 </div>
