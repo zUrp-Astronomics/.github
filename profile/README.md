@@ -79,7 +79,7 @@ Welcome to DIY hell. L'astro est une pute. Des secondes d'arc, les doigts gelés
 <table>
 <tr>
 <td width="112"><a href="https://zurp-astronomics.github.io/basilisk/"><img src="https://zurp-astronomics.github.io/brand/posters/basilisk.webp" alt="Basilisk poster" width="100"></a></td>
-<td><b><a href="https://zurp-astronomics.github.io/basilisk/">Basilisk</a></b> — A Sony E adapter for astro cameras: focus and aperture driven from Ekos or ASCOM, over a single USB-C cable. <a href="https://github.com/zUrp-Astronomics/Basilisk"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on Pinefeat</sub></td>
+<td><b><a href="https://zurp-astronomics.github.io/basilisk/">Basilisk</a></b> — Focus et diaphragme des objectifs Sony E sur caméra astro. Un câble USB-C. <a href="https://github.com/zUrp-Astronomics/Basilisk"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github" alt="GitHub repository"></a><br><sub>Based on Pinefeat</sub></td>
 </tr>
 </table>
 
